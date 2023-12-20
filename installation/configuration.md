@@ -197,6 +197,8 @@ You can connect Leantime to a OIDC provider of your choice. The reference implem
 
 For a basic Keycloak or Authentik connection, only the provider URL, client id and client secret are required.
 
+The callback url is: `<<yourdomain>>/oidc/callback`
+
 To understand some of the more advanced options, take a look at the github example below.
 
 The following environment variables can be used:
